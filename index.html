@@ -3,8 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>YabaiiWork2</title>
+    <style>
+        label {
+            display: inline-block;
+            width: 90px;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        #outputArea {
+            margin: 16px 0;
+        }
+    </style>
 </head>
 <body>
+    <h1>FizzBuzz問題</h1>
+    <div>
+        <label class="FizzNum">FizzNum:</label>
+        <input type="text" id="fizzNum" placeholder="整数値を入力してください"></input>
+    </div>
+    
+    <div>
+        <label class="BuzzNum">BuzzNum:</label>
+        <input type="text" id="BuzzNum" placeholder="整数値を入力してください"></input>
+    </div>
+    <input id="submit" type="submit" value="実行">
+
+    <div id="outputArea">
+        <p>【出力】</p>
+    </div>
     <script src="main.js"></script>
 </body>
-</html>
+</html> 
