@@ -8,13 +8,12 @@
             display: inline-block;
             width: 90px;
         }
-
         p {
             margin: 0;
         }
-
-        #outputArea {
-            margin: 16px 0;
+        ul {
+            padding: 0;
+            list-style-type: none;
         }
     </style>
 </head>
@@ -29,11 +28,10 @@
         <label class="BuzzNum">BuzzNum:</label>
         <input type="text" id="BuzzNum" placeholder="整数値を入力してください"></input>
     </div>
-    <input id="submit" type="submit" value="実行">
+    <button id="btn">実行</button>
 
-    <div id="outputArea">
-        <p>【出力】</p>
-    </div>
+    <p>【出力】</p>
+    <ul id="outputArea"></ul>
     <script src="main.js"></script>
 </body>
 </html> 
