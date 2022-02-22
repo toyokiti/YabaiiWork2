@@ -3,8 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>YabaiiWork2</title>
+    <style>
+        label {
+            display: inline-block;
+            width: 90px;
+        }
+        p {
+            margin: 0;
+        }
+        ul {
+            padding: 0;
+            list-style-type: none;
+        }
+    </style>
 </head>
 <body>
+    <h1>FizzBuzz問題</h1>
+    <div>
+        <label class="FizzNum">FizzNum:</label>
+        <input type="text" id="fizzNum" placeholder="整数値を入力してください"></input>
+    </div>
+    
+    <div>
+        <label class="BuzzNum">BuzzNum:</label>
+        <input type="text" id="BuzzNum" placeholder="整数値を入力してください"></input>
+    </div>
+    <button id="btn">実行</button>
+
+    <p>【出力】</p>
+    <ul id="outputArea"></ul>
     <script src="main.js"></script>
 </body>
-</html>
+</html> 
